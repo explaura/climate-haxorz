@@ -1,8 +1,5 @@
-import { Canvas } from '@react-three/fiber'
 import '../styles/app.scss';
-import Globe from 'react-globe.gl';
-// import Globe from './globe';
-import Something from './something';
+import Emission from './emission';
 
 function App() {
   return (
@@ -12,8 +9,7 @@ function App() {
         <pointLight position={[30, 30, 30]} />
         <Globe />
       </Canvas> */}
-      <Globe />
-      <Something />
+      <Emission />
     </div>
   );
 }
