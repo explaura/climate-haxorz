@@ -1,0 +1,48 @@
+service: climate-haxorz
+frameworkVersion: '2'
+
+custom:
+  prune:
+    automatic: true
+    number: 3
+  settings: ${file(./lambda-settings.yml)}
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: v1
+  region: ap-southeast-2
+
+functions:
+  ec2EmissionsCalculator:
+    handler: src/handlers/ec2EmissionsCalculator.handler
+    events:
+      - http:
+          integration: lambda
+          path: ec2-carbon-footprint
+          method: GET
+          cors: true
+          request:
+            passThrough: NEVER
+            template:
+              application/json: '{
+                  "region": "$input.params(''region'')",
+                  "instanceType": "$input.params(''instanceType'')",
+                  "uptime": "$input.params(''uptime'')"
+              }'
+          response:
+            statusCodes: ${self:custom.settings.statusCodes}
+    tags:
+      Team: climate-haxorz
+      CreatedFor: Hackathon
+      Type: Endpoint
+
+resources:
+  Outputs:
+    APIEndpoint:
+      Description: ${self:service} API Endpoint ID
+      Value:
+        Ref: ApiGatewayRestApi
+      Export:
+        Name: ${self:service}-APIEndpoint

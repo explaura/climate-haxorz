@@ -1,0 +1,232 @@
+[
+  {
+    "Region": "us-east-1",
+    "Region Name": "US East (N. Virginia)",
+    "Country": "United States",
+    "NERC Region": "SERC",
+    "CO2e": 415.755,
+    "Source": "EPA",
+    "PUE": 1.2,
+    "Dataset Source": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/blob/075dfafa0333734f31519cf2e4c5725be6fa6c38/microsite/docs/Methodology.md"
+  },
+  {
+    "Region": "us-east-2",
+    "Region Name": "US East (Ohio)",
+    "Country": "United States",
+    "NERC Region": "RFC",
+    "CO2e": 440.187,
+    "Source": "EPA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "us-west-1",
+    "Region Name": "US West (N. California)",
+    "Country": "United States",
+    "NERC Region": "WECC",
+    "CO2e": 350.861,
+    "Source": "EPA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "us-west-2",
+    "Region Name": "US West (Oregon)",
+    "Country": "United States",
+    "NERC Region": "WECC",
+    "CO2e": 350.861,
+    "Source": "EPA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "af-south-1",
+    "Region Name": "Africa (Cape Town)",
+    "Country": "South Africa",
+    "NERC Region": "",
+    "CO2e": 928,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-east-1",
+    "Region Name": "Asia Pacific (Hong Kong)",
+    "Country": "Hong Kong",
+    "NERC Region": "",
+    "CO2e": 810,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-south-1",
+    "Region Name": "Asia Pacific (Mumbai)",
+    "Country": "India",
+    "NERC Region": "",
+    "CO2e": 708,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-northeast-3",
+    "Region Name": "Asia Pacific (Osaka)",
+    "Country": "Japan",
+    "NERC Region": "",
+    "CO2e": 506,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-northeast-2",
+    "Region Name": "Asia Pacific (Seoul)",
+    "Country": "South Korea",
+    "NERC Region": "",
+    "CO2e": 500,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-southeast-1",
+    "Region Name": "Asia Pacific (Singapore)",
+    "Country": "Singapore",
+    "NERC Region": "",
+    "CO2e": 408.5,
+    "Source": "EMA Singapore",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-southeast-2",
+    "Region Name": "Asia Pacific (Sydney)",
+    "Country": "Australia",
+    "NERC Region": "",
+    "CO2e": 790,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ap-northeast-1",
+    "Region Name": "Asia Pacific (Tokyo)",
+    "Country": "Japan",
+    "NERC Region": "",
+    "CO2e": 506,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "ca-central-1",
+    "Region Name": "Canada (Central)",
+    "Country": "Canada",
+    "NERC Region": "",
+    "CO2e": 130,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "cn-north-1",
+    "Region Name": "China (Beijing)",
+    "Country": "China",
+    "NERC Region": "",
+    "CO2e": 555,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "cn-northwest-1",
+    "Region Name": "China (Ningxia)",
+    "Country": "China",
+    "NERC Region": "",
+    "CO2e": 555,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-central-1",
+    "Region Name": "Europe (Frankfurt)",
+    "Country": "Germany",
+    "NERC Region": "",
+    "CO2e": 338,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-west-1",
+    "Region Name": "Europe (Ireland)",
+    "Country": "Ireland",
+    "NERC Region": "",
+    "CO2e": 316,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-west-2",
+    "Region Name": "Europe (London)",
+    "Country": "England",
+    "NERC Region": "",
+    "CO2e": 228,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-south-1",
+    "Region Name": "Europe (Milan)",
+    "Country": "Italy",
+    "NERC Region": "",
+    "CO2e": 233,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-west-3",
+    "Region Name": "Europe (Paris)",
+    "Country": "France",
+    "NERC Region": "",
+    "CO2e": 52,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "eu-north-1",
+    "Region Name": "Europe (Stockholm)",
+    "Country": "Sweden",
+    "NERC Region": "",
+    "CO2e": 8,
+    "Source": "EEA",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "me-south-1",
+    "Region Name": "Middle East (Bahrain)",
+    "Country": "Bahrain",
+    "NERC Region": "",
+    "CO2e": 732,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  },
+  {
+    "Region": "sa-east-1",
+    "Region Name": "South America (São Paulo)",
+    "Country": "Brazil",
+    "NERC Region": "",
+    "CO2e": 74,
+    "Source": "carbonfootprint.com",
+    "PUE": 1.2,
+    "Dataset Source": ""
+  }
+]

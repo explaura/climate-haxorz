@@ -1,0 +1,36 @@
+statusCodes:
+  200:
+    template:
+      application/json: $input.path('$')
+  400:
+    pattern: '.*"status":400.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  401:
+    pattern: '.*"status":401.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  402:
+    pattern: '.*"status":402.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  403:
+    pattern: '.*"status":403.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  404:
+    pattern: '.*"status":404.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  422:
+    pattern: '.*"status":422.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  423:
+    pattern: '.*"status":423.*'
+    template:
+      application/json: $input.path('$.errorMessage')
+  500:
+    pattern: '.*"status":500.*'
+    template:
+      application/json: $input.path('$.errorMessage')
