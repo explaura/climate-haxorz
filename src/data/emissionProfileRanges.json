@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Captain Planet",
+    "min": 0,
+    "max": 4,
+    "recommendations": [
+      "Eat some spinach whilst coding.",
+      "Pet your cat 50 times after a blue-green deployment.",
+      "Take computer breaks to rest your eyes."
+    ]
+  },
+  {
+    "title": "Planeteer",
+    "min": 4.1,
+    "max": 8,
+    "recommendations": [
+      "Burp into your CPU so you can reuse energy.",
+      "Sing lullabies to your active EC2 instances during uptime."
+    ]
+  },
+  {
+    "title": "Hoggish Greedly",
+    "min": 8.1,
+    "max": 16,
+    "recommendations": [
+      "Recycle",
+      "Dedicate an S3 bucket in your organisation to storing memes"
+    ]
+  },
+  {
+    "title": "Captain Pollution",
+    "min": 16.1,
+    "recommendations": [
+      "Quit your tech job",
+      "Get AWS certified",
+      "Eat more veggies"
+    ]
+  }
+]
