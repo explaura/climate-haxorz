@@ -1,0 +1,18 @@
+# IDE
+.idea
+.history
+
+# Environment
+.env
+*.env
+
+# Build
+.serverless
+custom.yml
+.DS_Store
+
+# Dependencies
+node_modules
+
+# Testing
+coverage

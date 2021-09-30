@@ -1,0 +1,34 @@
+{
+  "name": "climate-haxorz",
+  "version": "1.0.0",
+  "description": "Service that crunches the carbon emissions numbers for AWS resources",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/explaura/climate-haxorz.git"
+  },
+  "keywords": [
+    "hackathon"
+  ],
+  "author": "Micah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/explaura/climate-haxorz/issues"
+  },
+  "homepage": "https://github.com/explaura/climate-haxorz#readme",
+  "dependencies": {
+    "@middy/core": "^2.5.1",
+    "@middy/validator": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
