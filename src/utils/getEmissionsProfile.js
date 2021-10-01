@@ -5,11 +5,7 @@ const getEmissionsProfile = (fiftyPercent, manufacturingEmissions) => {
 
   const profile = emissionProfileRanges.find(profile => {
     const { min, max } = profile;
-    let didFindProfile = totalEmissions > min;
-    if (max) {
-      didFindProfile = didFindProfile && totalEmissions <= max;
-    }
-    return didFindProfile;
+    return totalEmissions > min && totalEmissions <= max;
   });
 
   return {
